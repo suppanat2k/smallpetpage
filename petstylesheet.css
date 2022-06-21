@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+    background-color: rgb(255, 182, 46);
+}
+
+nav ul {
+    width: 20%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0%;
+    margin-left: 10%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    background-color: rgb(253, 169, 14);
+}
+
+nav .buynow{
+    text-decoration: none;
+    color: white;
+    margin-right: 10%;
+    border: 1px solid black;
+    background-color: black;
+    padding: 0.5% 3%;
+    letter-spacing: 1px;
+}
+
+nav h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    margin-right: 10%;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+}
+
+
+
