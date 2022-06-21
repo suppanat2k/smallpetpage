@@ -10,6 +10,7 @@ nav {
     align-items: center;
     padding: 1% 0;
     background-color: rgb(255, 182, 46);
+    z-index: 1;
 }
 
 nav ul {
@@ -26,7 +27,7 @@ nav ul li a {
     color: whitesmoke;
     font-size: 20px;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bolder;
 }
 
@@ -42,12 +43,18 @@ nav .buynow{
     background-color: black;
     padding: 0.5% 3%;
     letter-spacing: 1px;
+    border: 1px solid white;
+}
+
+nav .buynow:hover{
+    background-color: rgb(61, 61, 61);
 }
 
 nav h2{
+    font-family: 'Righteous', cursive;
     font-weight: bold;
     font-size: 40px;
-    color: whitesmoke;
+    color: rgb(255, 225, 187);
     letter-spacing: 3px;
     margin-right: 10%;
 }
@@ -59,6 +66,11 @@ nav h2{
     line-height: 80px;
     margin-right: 40px;
     cursor:pointer;
+}
+
+.fa-bone{
+    font-size: 40px;
+    color: rgb(165, 87, 42);
 }
 
 
