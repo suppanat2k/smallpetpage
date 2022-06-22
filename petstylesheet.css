@@ -73,5 +73,70 @@ nav h2{
     color: rgb(165, 87, 42);
 }
 
+.slide-content{
+    position: relative;
+    width: 100%;
+}
 
+section .container{
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(250, 219, 161);
+}
+
+section figure {
+    position: relative;
+    width: 400%;
+    margin: 2% 25%;
+    left: 0%;
+    animation: 30s slider infinite;
+}
+
+section figure img {
+    width: 12.5%;
+}
+
+@keyframes slider {
+    0% {
+        left:0;
+    }
+    12.5%{
+        left:0;
+    }
+    25% {
+        left: -50%;
+    }
+    37.5% {
+        left: -50%;
+    }
+    50%{
+        left: -100%;
+    }
+    62.5%{
+        left: -100%;
+    }
+    75%{
+        left: -150%;
+    }
+    87.5%{
+        left: -150%;
+    }
+}
+
+section .frame {
+    position: absolute;
+    width: 26%;
+    height: 90%;
+    background-color: rgb(250, 219, 161);
+    top: 6%;
+}
+
+section .frame2 {
+    position: absolute;
+    width: 25%;
+    height: 90%;
+    background-color: rgb(250, 219, 161);
+    top: 6%;
+    left: 75%;
+}
 
